@@ -20,7 +20,7 @@ dbQueue.add(transactionObserver: observer)
 dbQueue.inDatabase { db in
     try db.execute("BEGIN TRANSACTION")
 // Then a statement is executed:
-	try db.execute("INSERT INTO documents ...")
+    try db.execute("INSERT INTO documents ...")
 ```
 * The observation process starts when the statement is **compiled**: sqlite3_set_authorizer tells that the statement performs insertion into the `documents` table. Generally speaking, statements may have many effects, by the mean of foreign key actions and SQL triggers. SQLite takes care of exposing all those effects to sqlite3_set_authorizer.
 * When the statement is **about to be executed**, the broker queries the observer.observes(eventsOfKind:) method. If it returns true, the observer is **activated**.
