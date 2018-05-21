@@ -17,3 +17,5 @@
 
 * 调研计划
 有空余时间按照列的三方库列表，归纳里面的实现，出一个文档。
+
+* [GRDB FetchedRecordsController 实现原理](https://github.com/Andy1994/DatabaseSchemeMigrationSolution/blob/master/GRDB%20FetchedRecordsController%20%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86.md)
