@@ -1,7 +1,9 @@
 # FMDBMigrationManager 调研
-## 0. 链接：https://github.com/layerhq/FMDBMigrationManager
-## 1. 简介：FMDBMigrationManager 已一种简单而灵活的解决方案补全了 FMDB 数据迁移的空白，可以将版本化的模式管理引入新的或现有的Cocoa应用程序。
-## 2. 功能：
+## 0. 链接
+https://github.com/layerhq/FMDBMigrationManager
+## 1. 简介
+FMDBMigrationManager 已一种简单而灵活的解决方案补全了 FMDB 数据迁移的空白，可以将版本化的模式管理引入新的或现有的Cocoa应用程序。
+## 2. 功能
 * 支持在数据库中创建和管理专用的迁移表（ schema_migrations 表）。
 * 使用 SQLite 事务安全地迁移数据。
 * 基本的迁移功能为以版本编码和名称作为名字的 .sql 文件。
