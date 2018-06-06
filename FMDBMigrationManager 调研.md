@@ -16,7 +16,7 @@
 * Includes a lightweight, yet rich API for introspecting schema state.
 * Exposes the status of migrations in progress and supports cancellation of migration via NSProgress.
 ## 4. 迁移流程图
-![](FMDBMigrationManager%20%E8%B0%83%E7%A0%94/%E6%9D%A1%E4%BB%B6%E7%BB%93%E6%9E%84%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
+![](https://github.com/Andy1994/DatabaseSchemeMigrationSolution/blob/master/img/FMDBMigrationManager%E8%B0%83%E7%A0%94-1.png)
 ## 5. schema_migrations 表结构
 ```
 CREATE TABLE schema_migrations(
