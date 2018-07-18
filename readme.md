@@ -21,6 +21,7 @@
 
 * SQLite sql 调研
 1. [SQLite Autoincrement](https://github.com/Andy1994/DatabaseSchemeMigrationSolution/blob/master/SQLite%20Autoincrement.md)
+2. [SQLite Foreign Key](https://github.com/Andy1994/DatabaseSchemeMigrationSolution/blob/master/SQLite%20Foreign%20Key.md)
 
 * 调研计划
 有空余时间按照列的三方库列表，归纳里面的实现，出一个文档。
