@@ -87,10 +87,10 @@ CREATE TABLE song(
 ```
 
 3.2 ON DELETE 和 ON UPDATE 操作
-1.NO ACTION：默认的，表示没有什么行为。
-2.RESTRICT：当有一个 child 关联到 parent 时，禁止 delete 或 update parent。
-3.SET NULL：当 parent 被 delete 或 update 时，child 的关联字段被置为NULL (如果字段有NOT NULL，就出错)。
-4.SET DEFAULT：当 parent 被 delete 或 update 时，child 的关联字段被置为默认值，但是如果 parent 中还是没有这个默认值的行，还是会报错。
-5.CASCADE：将实施在 parent 上的删除或更新操作，传播给与之关联的 child上。
+1. NO ACTION：默认的，表示没有什么行为。
+2. RESTRICT：当有一个 child 关联到 parent 时，禁止 delete 或 update parent。
+3. SET NULL：当 parent 被 delete 或 update 时，child 的关联字段被置为NULL (如果字段有NOT NULL，就出错)。
+4. SET DEFAULT：当 parent 被 delete 或 update 时，child 的关联字段被置为默认值，但是如果 parent 中还是没有这个默认值的行，还是会报错。
+5. CASCADE：将实施在 parent 上的删除或更新操作，传播给与之关联的 child上。
 对于 ON DELETE CASCADE，同被删除的父表中的行相关联的子表中的每1行，也会被删除。
 对于 ON UPDATE CASCADE，存储在子表中的每1行，对应的字段的值会被自动修改成同新的父键匹配。
